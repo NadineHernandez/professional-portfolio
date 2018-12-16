@@ -129,7 +129,7 @@
     border-width: .2rem;
     border-color: #cdbe83;
     padding: .3rem .2rem;
-    border-radius: .2rem;
+    border-radius: .3rem;
     /* margin-left: 60%;
     margin-top: 1%; */
     font-weight: bold;
@@ -148,15 +148,14 @@
 
 .btn-holder {
     margin: 0 auto;
-    margin-top: 2%;
-    width: 25%;
+    margin: 2rem 0;
+    /* width: 25%; */
 }
 
 .line {
     width: 100%;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #cdbe83;
+    height: .5rem;
+    background-color: #cdbe83;
     margin-top: .5%;
 }
 
@@ -288,3 +287,48 @@
     display: inline-block;
     width: 5rem;
 }
+
+@media only screen and (max-width: 991px) {
+    #portrait {
+        width: 30%;
+        right: 33%;
+        bottom: -75%;
+    }
+
+    .about {
+        width: 75%;
+    }
+
+    #position {
+        margin-top: 19rem;
+        font-size: 300%;
+    }
+
+    .bottom-text {
+        font-size: 2rem;
+    }
+
+    .bottom-email {
+        font-size: 2rem;
+    }
+
+    .top-name {
+        font-size: 2rem;
+    }
+
+    .nav-item {
+        font-size: 1.5rem;
+    }
+
+    .about-text {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+    }
+
+    .btn-holder {
+        margin: 2rem 1rem;
+    }
+  }
