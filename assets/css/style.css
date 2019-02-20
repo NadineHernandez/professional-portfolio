@@ -27,7 +27,7 @@ body {
 }
 
 .about-text {
-    color: black;
+    color: #093741;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -39,7 +39,7 @@ body {
 }
 
 #position {
-    color: black;
+    color: #093741;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -159,7 +159,7 @@ body {
 
 .btn:hover {
     background-color: #cdbe83;
-    color: black;
+    color: #093741;
 }
 
 .btn-holder {
@@ -232,7 +232,7 @@ body {
 }
 
 .portfolio-text {
-    color: black;
+    color: #093741;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
 }
