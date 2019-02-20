@@ -1,3 +1,7 @@
+body {
+    color: #093741;
+}
+
 #title-page {
     background-image: linear-gradient(to right, rgba(4,13,14,.3), rgba(4,13,14,1)), URL(../images/branches.jpg);
 }
