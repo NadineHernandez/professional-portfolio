@@ -165,6 +165,10 @@ body {
 
 .project-img {
     width: 19.5rem;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3c848d;
+    border-width: 3px;
 }
 
 .project-title {
