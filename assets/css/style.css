@@ -359,7 +359,7 @@ body {
     
     .project-img {
         width: 19.5rem;
-        padding: .5vw 1vw;
+        margin: .5vw 1vw;
     }
 
     .project-github {
