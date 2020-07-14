@@ -1,0 +1,70 @@
+body {
+    font-family: Montserrat;
+    color: #092927;
+}
+
+h1, h2 {
+    text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white;
+}
+
+.b-color {
+    border-color: #092927;
+}
+
+.warm-color {
+    color: #943015;
+}
+
+.skills {
+    padding: 0 1rem;
+}
+
+.skills div{
+    margin: .1rem;
+    padding: .5rem 0;
+}
+
+.main-content::-webkit-scrollbar {
+    display: none;
+}
+
+.main-content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.btn-color {
+    background-color: #195563;
+}
+
+.btn-color:hover {
+    background-color: #09728b;
+    transition: .3s;
+}
+
+.warm-btn {
+    background-color: #943015;
+}
+
+.warm-btn:hover {
+    background-color: #be573b;
+    transition: .3s;
+}
+
+.skills-el {
+  background: /* Shadow covers */
+  linear-gradient(white 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), white 70%) 0 100%, /* Shadows */
+  radial-gradient(50% 0, farthest-side, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)), radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)) 0 100%;
+  background: /* Shadow covers */
+  linear-gradient(white 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), white 70%) 0 100%, /* Shadows */
+  radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+  /* Opera doesn't support this in the shorthand */
+  background-attachment: local, local, scroll, scroll;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
