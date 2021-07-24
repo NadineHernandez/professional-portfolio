@@ -68,3 +68,8 @@ h1, h2 {
 html {
     scroll-behavior: smooth;
   }
+
+.art-img {
+    margin:auto;
+    padding-top: 1rem;
+}
